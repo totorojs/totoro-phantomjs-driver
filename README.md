@@ -1,0 +1,59 @@
+totoro-phantomjs
+=======
+
+[![Build Status](https://secure.travis-ci.org/node-modules/totoro-phantomjs.png)](http://travis-ci.org/node-modules/totoro-phantomjs)
+
+[![Dependency Status](https://gemnasium.com/node-modules/totoro-phantomjs.png)](https://gemnasium.com/node-modules/totoro-phantomjs)
+
+[![NPM](https://nodei.co/npm/totoro-phantomjs.png?downloads=true&stars=true)](https://nodei.co/npm/totoro-phantomjs/)
+
+![logo](https://raw.github.com/node-modules/totoro-phantomjs/master/logo.png)
+
+totoro [phantomjs](http://phantomjs.org/) driver.
+
+* [How to create a totoro driver](https://github.com/totorojs/totoro-server#3-what-is-a-driver)
+
+## Install
+
+```bash
+$ npm install totoro-phantomjs -g
+```
+
+If you're in China, please set `PHANTOMJS_CDNURL` env:
+
+```bash
+$ PHANTOMJS_CDNURL=http://cnpmjs.org/downloads npm install totoro-phantomjs -g
+```
+
+## Usage
+
+Link to totoro test server, and tell it a new availble phantom.
+
+```bash
+$ totoro-phantomjs --server server.totorojs.org:9999 --browsers phantom
+```
+
+## License
+
+(The MIT License)
+
+Copyright (c) 2014 fengmk2 &lt;fengmk2@gmail.com&gt; and other contributors
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

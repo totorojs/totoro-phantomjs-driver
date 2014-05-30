@@ -1,0 +1,50 @@
+{
+  "name": "totoro-phantomjs",
+  "version": "0.0.1",
+  "description": "totoro phantomjs driver",
+  "main": "index.js",
+  "bin": {
+    "totoro-phantomjs": "./bin/totoro-phantomjs.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "make test-all"
+  },
+  "config": {
+    "cov": {
+      "threshold": 100
+    }
+  },
+  "dependencies": {
+    "commander": "~2.2.0",
+    "debug": "~0.8.1",
+    "phantomjs": "~1.9.7-8",
+    "socket.io-client": "0.9.x"
+  },
+  "devDependencies": {
+    "autod": "*",
+    "contributors": "*",
+    "cov": "*",
+    "istanbul-harmony": "*",
+    "jshint": "*",
+    "mocha": "*",
+    "should": "~4.0.0"
+  },
+  "homepage": "https://github.com/fengmk2/totoro-phantomjs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fengmk2/totoro-phantomjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fengmk2/totoro-phantomjs/issues",
+    "email": "fengmk2@gmail.com"
+  },
+  "keywords": [
+    "totoro", "phantomjs", "totoro-driver"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)",
+  "license": "MIT"
+}
