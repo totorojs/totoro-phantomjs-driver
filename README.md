@@ -1,15 +1,11 @@
-totoro-phantomjs
+totoro-phantomjs-driver
 =======
 
-[![Build Status](https://secure.travis-ci.org/node-modules/totoro-phantomjs.png)](http://travis-ci.org/node-modules/totoro-phantomjs)
+[![Build Status](https://secure.travis-ci.org/node-modules/totoro-phantomjs-driver.png)](http://travis-ci.org/node-modules/totoro-phantomjs-driver)
 
-[![Dependency Status](https://gemnasium.com/node-modules/totoro-phantomjs.png)](https://gemnasium.com/node-modules/totoro-phantomjs)
+[![NPM](https://nodei.co/npm/totoro-phantomjs-driver.png?downloads=true&stars=true)](https://nodei.co/npm/totoro-phantomjs-driver/)
 
-[![NPM](https://nodei.co/npm/totoro-phantomjs.png?downloads=true&stars=true)](https://nodei.co/npm/totoro-phantomjs/)
-
-![logo](https://raw.github.com/node-modules/totoro-phantomjs/master/logo.png)
-
-totoro [phantomjs](http://phantomjs.org/) driver.
+[totoro](https://github.com/totorojs/totoro) [phantomjs](http://phantomjs.org/) driver.
 
 * [How to create a totoro driver](https://github.com/totorojs/totoro-server#3-what-is-a-driver)
 
@@ -22,7 +18,7 @@ $ npm install totoro-phantomjs -g
 If you're in China, please set `PHANTOMJS_CDNURL` env:
 
 ```bash
-$ PHANTOMJS_CDNURL=http://cnpmjs.org/downloads npm install totoro-phantomjs -g
+$ PHANTOMJS_CDNURL=http://npm.taobao.org/dist/phantomjs npm install totoro-phantomjs-driver -g
 ```
 
 ## Usage
@@ -30,7 +26,7 @@ $ PHANTOMJS_CDNURL=http://cnpmjs.org/downloads npm install totoro-phantomjs -g
 Link to totoro test server, and tell it a new availble phantom.
 
 ```bash
-$ totoro-phantomjs --server server.totorojs.org:9999 --browsers phantom
+$ totoro-phantomjs-driver --server server.totorojs.org:9999
 ```
 
 ## License

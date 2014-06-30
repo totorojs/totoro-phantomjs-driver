@@ -1,1 +1,1 @@
-module.exports = require('./lib/totoro-phantomjs');
+module.exports = require('./lib/driver');

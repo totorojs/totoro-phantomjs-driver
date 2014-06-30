@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**!
- * totoro-phantomjs - bin/totoro-phantomjs.js
+ * totoro-phantomjs-driver - bin/totoro-phantomjs-driver.js
  *
  * Copyright(c) fengmk2 and other contributors.
  * MIT Licensed
@@ -24,7 +24,6 @@ commander
   .description(pkg.description)
   .option('-v, --version', 'output the version number')
   .option('-s, --server [s]', 'specify server and port, default is server.totorojs.org:9999')
-  .option('-b, --browsers <s>', 'browsers to open')
   .on('version', function () {
     console.log(pkg.version);
     process.exit(0);

@@ -4,7 +4,7 @@ TIMEOUT = 1000
 MOCHA_OPTS =
 
 install:
-	@npm install --loglevel=http \
+	@PHANTOMJS_CDNURL=http://npm.taobao.org/dist/phantomjs npm install \
 		--registry=http://registry.npm.taobao.org --disturl=http://npm.taobao.org/dist
 
 jshint: install

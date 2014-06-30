@@ -15,7 +15,7 @@
  */
 
 var should = require('should');
-var totoro-phantomjs = require('../');
+var totoroPhantomjs = require('../');
 
 describe('totoro-phantomjs.test.js', function () {
 

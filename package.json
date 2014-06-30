@@ -1,10 +1,10 @@
 {
-  "name": "totoro-phantomjs",
+  "name": "totoro-phantomjs-driver",
   "version": "0.0.1",
   "description": "totoro phantomjs driver",
   "main": "index.js",
   "bin": {
-    "totoro-phantomjs": "./bin/totoro-phantomjs.js"
+    "totoro-phantomjs-driver": "./bin/totoro-phantomjs-driver.js"
   },
   "preferGlobal": true,
   "scripts": {
@@ -19,7 +19,7 @@
     "commander": "~2.2.0",
     "debug": "~0.8.1",
     "phantomjs": "~1.9.7-8",
-    "socket.io-client": "0.9.x"
+    "totoro-driver-base": "~0.1.0"
   },
   "devDependencies": {
     "autod": "*",
@@ -30,13 +30,13 @@
     "mocha": "*",
     "should": "~4.0.0"
   },
-  "homepage": "https://github.com/fengmk2/totoro-phantomjs",
+  "homepage": "https://github.com/totorojs/totoro-phantomjs-driver",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fengmk2/totoro-phantomjs.git"
+    "url": "git://github.com/totorojs/totoro-phantomjs-driver.git"
   },
   "bugs": {
-    "url": "https://github.com/fengmk2/totoro-phantomjs/issues",
+    "url": "https://github.com/totorojs/totoro-phantomjs-driver/issues",
     "email": "fengmk2@gmail.com"
   },
   "keywords": [
