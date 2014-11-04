@@ -32,7 +32,7 @@ test-cov cov: install
 test-all: install jshint test cov
 
 autod: install
-	@./node_modules/.bin/autod -w --prefix "~"
+	@./node_modules/.bin/autod -w --prefix "~" -e 'lib/phantom-openurl.js'
 	@$(MAKE) install
 
 contributors: install

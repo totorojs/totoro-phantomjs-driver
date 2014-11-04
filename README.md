@@ -1,8 +1,6 @@
 totoro-phantomjs-driver
 =======
 
-[![Build Status](https://secure.travis-ci.org/node-modules/totoro-phantomjs-driver.png)](http://travis-ci.org/node-modules/totoro-phantomjs-driver)
-
 [![NPM](https://nodei.co/npm/totoro-phantomjs-driver.png?downloads=true&stars=true)](https://nodei.co/npm/totoro-phantomjs-driver/)
 
 [totoro](https://github.com/totorojs/totoro) [phantomjs](http://phantomjs.org/) driver.

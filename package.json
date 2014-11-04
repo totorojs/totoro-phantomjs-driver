@@ -16,10 +16,10 @@
     }
   },
   "dependencies": {
-    "commander": "~2.2.0",
-    "debug": "~0.8.1",
-    "phantomjs": "~1.9.7-8",
-    "totoro-driver-base": "~0.1.0"
+    "commander": "~2.5.0",
+    "debug": "~2.1.0",
+    "phantomjs": "~1.9.12",
+    "totoro-driver-base": "~1.0.0"
   },
   "devDependencies": {
     "autod": "*",
@@ -28,7 +28,7 @@
     "istanbul-harmony": "*",
     "jshint": "*",
     "mocha": "*",
-    "should": "~4.0.0"
+    "should": "~4.1.0"
   },
   "homepage": "https://github.com/totorojs/totoro-phantomjs-driver",
   "repository": {
