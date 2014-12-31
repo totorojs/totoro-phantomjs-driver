@@ -42,7 +42,7 @@
     "esnext"        : true,      // true: Allow ES.next (ES6) syntax (ex: `const`)
     "moz"           : false,     // true: Allow Mozilla specific syntax (extends and overrides esnext features)
                                  // (ex: `for each`, multiple try/catch, function expression…)
-    "evil"          : false,     // true: Tolerate use of `eval` and `new Function()`
+    "evil"          : true,     // true: Tolerate use of `eval` and `new Function()`
     "expr"          : true,      // true: Tolerate `ExpressionStatement` as Programs
     "funcscope"     : false,     // true: Tolerate defining variables inside control statements"
     "globalstrict"  : false,     // true: Allow global "use strict" (also enables 'strict')
@@ -90,6 +90,7 @@
       "before": true,
       "afterEach": true,
       "beforeEach": true,
-      "after": true
+      "after": true,
+      "exit": true
     }
 }

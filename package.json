@@ -19,7 +19,8 @@
     "commander": "~2.5.0",
     "debug": "~2.1.0",
     "phantomjs": "~1.9.12",
-    "totoro-driver-base": "~1.0.0"
+    "totoro-driver-base": "^1.1.0",
+    "async": "~0.9.0"
   },
   "devDependencies": {
     "autod": "*",
